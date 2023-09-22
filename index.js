@@ -18,7 +18,7 @@ app.use('/', mainrouter)
 app.use('/api', apirouter)
 
 app.listen(PORT, () => {
-    console.log(color("SERVIDOR DUNCIONANDO EN PUERTO: " + PORT,'green'))
+    console.log(color("SERVIDOR FUNCIONANDO EN PUERTO: " + PORT,'green'))
 })
 
 module.exports = app
