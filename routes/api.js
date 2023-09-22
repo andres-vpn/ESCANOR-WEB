@@ -6,10 +6,10 @@ var db = require(__path + '/database/db');
 try {
   var kuhong = db.get('ojan');
 } catch (e) {
-  console.log('bienvenido a lionfuri api')
+  console.log('ESCANOR-WEB FUNNCIONANDO CORRECTAMENTE BY: ANDRES-VPN')
 }
 
-var criador = `ANDRES-VPN`
+var creador = `ANDRES-VPN`
 var key = 'andress'
 
 var chaveapi = 'GataDios'
@@ -30,8 +30,8 @@ var { color, bgcolor } = require(__path + '/lib/color.js');
 
 precisos = {
   digitarapikey: {
-    creador: `${criador}`,
-    error: 'lion_402',
+    creador: `${creador}`,
+    error: 'ESCANOR_402',
     mensage: `digite parametro apikey!`
   }
 }
@@ -51,7 +51,7 @@ router.get('/playmp3mp4', async (req, res, next) => {
         var audio = dataf.result.audio.link;
         var video = dataf.result.video.link;
         res.json({
-          creador: `${criador}`,
+          creador: `${creador}`,
           estado: '✓activo',
           id,
           titulo,
@@ -85,7 +85,7 @@ router.get('/ytaudio', async (req, res, next) => {
         var imagen = dataf.result.thumbnail;
         var audio = dataf.result.link.link;
         res.json({
-          creador: `${criador}`,
+          creador: `${creador}`,
           estado: '✓activo',
           id,
           titulo,
@@ -118,7 +118,7 @@ router.get('/ytvideo', async (req, res, next) => {
         var imagen = dataf.result.thumbnail;
         var video = dataf.result.link.link;
         res.json({
-          creador: `${criador}`,
+          creador: `${creador}`,
           estado: '✓activo',
           id,
           titulo,
@@ -154,9 +154,9 @@ router.get('/tiktokvideo', async (req, res, next) => {
         var comentarios = dataf.result.statistic.comment_count;
         var video = dataf.result.link;
         res.json({
-          creador: `${criador}`,
+          creador: `${creador}`,
           estado: '✓activo',
-          tik_tok_premium: `©${criador}✓`,
+          tik_tok_premium: `©${creador}✓`,
           id,
           titulo,
           nombreuser,
@@ -189,7 +189,7 @@ router.get('/gpt', async (req, res, next) => {
       .then(dataf => {
         var resultado = dataf.result;
         res.json({
-          criador: `${criador}`,
+          criador: `${creador}`,
           estado: 'activo',
           resultado
         })
@@ -209,7 +209,7 @@ router.get('/xnxxsearch', async (req, res, next) => {
       .then(dataf => {
         var resultado = dataf.result;
         res.json({
-          criador: `${criador}`,
+          criador: `${creador}`,
           resultado
         })
       })
@@ -236,7 +236,7 @@ router.get('/xnxx', async (req, res, next) => {
         var link = dataf.result.link;
 
         res.json({
-          criador: `${criador}`,
+          criador: `${creador}`,
           estado: 'activo',
           titulo,
           duracion,
@@ -266,7 +266,7 @@ router.get('/simi', async (req, res, next) => {
       .then(dataf => {
         var resultado = dataf.success;
         res.json({
-          criador: `${criador}`,
+          criador: `${creador}`,
           estado: 'activo',
           resultado
         })
@@ -287,7 +287,7 @@ router.get('/etra', async (req, res, next) => {
       .then(dataf => {
         var resultado = dataf;
         res.json({
-          criador: `${criador}`,
+          criador: `${creador}`,
           resultado
         })
       })
@@ -307,7 +307,7 @@ router.get('/xvideos', async (req, res, next) => {
       .then(dataf => {
         var resultado = dataf;
         res.json({
-          criador: `${criador}`,
+          criador: `${creador}`,
           resultado
         })
       })
@@ -325,7 +325,7 @@ router.get('/saycat', async (req, res, next) => {
       .then(dataf => {
         var resultado = dataf.resultado;
         res.json({
-          criador: `${criador}`,
+          criador: `${creador}`,
           resultado
         })
       })
@@ -344,7 +344,7 @@ router.get('/conselho', async (req, res, next) => {
       .then(dataf => {
         var frase = dataf.frase;
         res.json({
-          criador: `${criador}`,
+          criador: `${creador}`,
           frase
         })
       })
@@ -362,7 +362,7 @@ router.get('/cantadas', async (req, res, next) => {
       .then(dataf => {
         var frase = dataf.frase;
         res.json({
-          criador: `${criador}`,
+          criador: `${creador}`,
           frase
         })
       })
@@ -381,7 +381,7 @@ router.get('/metadinha', async (req, res, next) => {
         var garoto = dataf.garoto;
         var garota = dataf.garota;
         res.json({
-          criador: `${criador}`,
+          criador: `${creador}`,
           garoto,
           garota
         })
@@ -400,7 +400,7 @@ router.get('/frasebomdia', async (req, res, next) => {
       .then(dataf => {
         var frase = dataf.frase;
         res.json({
-          criador: `${criador}`,
+          criador: `${creador}`,
           frase
         })
       })
@@ -418,7 +418,7 @@ router.get('/hentaivideo', async (req, res, next) => {
       .then(dataf => {
         var resultado = dataf.resultado;
         res.json({
-          criador: `${criador}`,
+          criador: `${creador}`,
           resultado
         })
       })
@@ -439,7 +439,7 @@ router.get('/formtext', async (req, res, next) => {
       .then(dataf => {
         var resultado = dataf.resultado;
         res.json({
-          criador: `${criador}`,
+          criador: `${creador}`,
           resultado
         })
       })
@@ -458,7 +458,7 @@ router.get('/telesticker', async (req, res, next) => {
       .then(dataf => {
         var frase = dataf.sticker;
         res.json({
-          criador: `${criador}`,
+          criador: `${creador}`,
           sticker
         })
       })
@@ -477,7 +477,7 @@ router.get('/dolares', async (req, res, next) => {
       .then(dataf => {
         var valor = dataf.valor;
         res.json({
-          criador: `${criador}`,
+          criador: `${creador}`,
           valor
         })
       })
@@ -978,7 +978,7 @@ router.get('/hentai', async (req, res, next) => {
             var letra = i.lyrics
 
                 res.json({
-                  creador: `${criador}`,
+                  creador: `${creador}`,
                   estado: '✓activo',
                   titulo,
                   autor,
@@ -1008,7 +1008,7 @@ router.get('/mediafire', async (req, res, next) => {
             var link = i.url
             var link_2 = i.url2
                 res.json({
-                  creador: `${criador}`,
+                  creador: `${creador}`,
                   estado: '✓activo',
                   result : {
                   nombre,
@@ -1024,6 +1024,39 @@ router.get('/mediafire', async (req, res, next) => {
                 res.sendFile(__path + '/views/key.html')
               }
             })
+
+            router.get('/apk', async (req, res, next) => {
+              var apikey = req.query.apikey;
+              var quero = req.query.quero;
+              if (!apikey) return res.json(precisos.digitarapikey)
+              if (listkey.includes(apikey)) {
+                var { search, download } = require("aptoide-scraper")
+                var search1 = await search(quero)
+                var i = await download(search1[0].id)
+                var nombre = i.name
+                var package = i.package
+                var lastup = i.lastup
+                var size = i.size
+                var icon = i.icon
+                var link = i.dllink
+                    res.json({
+                      creador: `${creador}`,
+                      estado: '✓activo',
+                      result: {
+                        nombre,
+                        package,
+                        lastup,
+                        size,
+                        icon,
+                        link,
+                        
+                      }
+                    })
+                  
+                  } else {
+                    res.sendFile(__path + '/views/key.html')
+                  }
+                })
                
 router.get('/pokemon', async (req, res, next) => {
   var apikey = req.query.apikey;
@@ -1054,7 +1087,7 @@ router.get('/pokemon', async (req, res, next) => {
     var result = JSON.parse(fs.readFileSync("./libjson/pokemon.json"))
     var info = ala[Math.floor(Math.random() * ala.length)];
         res.json({
-          creador: `${criador}`,
+          creador: `${creador}`,
           estado: '✓activo',
           audio: 'https://www.cjoint.com/doc/23_08/MHvaeHOsk4I_ttsmaker-file-2023-8-20-18-24-49.mp3',
           audiobr: 'https://www.cjoint.com/doc/23_08/MHvaoFCDzLI_ttsmaker-file-2023-8-20-19-6-5.mp3',

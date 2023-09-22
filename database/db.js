@@ -5,7 +5,7 @@ var __path = process.cwd(),
 // Connection URL
 var url = 'https://alizindev-api.onrender.com';
 try {
-if(url == 'https://alizindev-api.onrender.com') throw console.log(color('Verifique a configuração do banco de dados, var url não foi preenchido','red'));
+if(url == 'https://alizindev-api.onrender.com') throw console.log(color('Verifique la configuración de la base de datos, la URL var no está corrompida','red'));
 } catch (e) {
 	return;
 	}
@@ -15,7 +15,7 @@ db.then(() => {
   console.log(color('Conectado corretamente al servidor, andresvpn','green'))
 })
 .catch ((e) => {
-	console.log(color('Error : '+ e +'\n\nFalha ao conectar ao banco de dados, \nverifique a configuração do banco de dados se a URL de conexão está correta','red'))
+	console.log(color('Error : '+ e +'\n\nFALLO SL CONECTAR A LA BASE DE DATOS, \nVERIFIQUE QUE LA URL ESTE CORRECTA','red'))
 	})
 
 

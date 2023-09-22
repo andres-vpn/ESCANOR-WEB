@@ -1,7 +1,7 @@
 {
-  "name": "ALIZIN-API",
+  "name": "ANDRES-VPN",
   "version": "2.0.0",
-  "description": "ALIZIN DEV, UMA BASE DE API PARA VC ESTUDAR",
+  "description": "WEB DE API",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
@@ -16,13 +16,14 @@
     "rest",
     "api"
   ],
-  "author": "ALIZIN-DEV",
+  "author": "ANDRES-VPN",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com"
   },
   "dependencies": {
     "@bochilteam/scraper": "^4.2.4",
+    "aptoide-scraper": "^1.0.1",
     "axios": "^0.21.1",
     "base-64": "^1.0.0",
     "base32": "0.0.6",
