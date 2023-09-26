@@ -16,9 +16,7 @@ router.get('/config', (req, res) => {
         result: {
             prefix : '/',
             namabot: 'ESCANOR-MD-BOT',
-            namaowner: 'andresvpn',
-            instagram: 'andres-vpn',
-            youtube : 'andresvpn'
+            namaowner: 'andresvpn'
         }
     }
     res.json(config)
